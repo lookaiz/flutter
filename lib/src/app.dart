@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:monkey_tech_day/src/bloc/conferences/conferences.dart';
-import 'package:monkey_tech_day/src/bloc/conferences/selected_conference.dart';
-import 'package:monkey_tech_day/src/providers/root.dart';
-import 'package:monkey_tech_day/src/utils/platform_app.dart';
-import 'package:monkey_tech_day/src/utils/platform_loader.dart';
-import 'package:monkey_tech_day/src/views/conference.dart';
-import 'package:monkey_tech_day/src/views/conferences.dart';
+
+import 'package:flutter_mktd/src/bloc/conferences/conferences.dart';
+import 'package:flutter_mktd/src/bloc/conferences/selected_conference.dart';
+import 'package:flutter_mktd/src/providers/root.dart';
+import 'package:flutter_mktd/src/utils/platform_app.dart';
+import 'package:flutter_mktd/src/utils/platform_loader.dart';
+import 'package:flutter_mktd/src/views/conference.dart';
+import 'package:flutter_mktd/src/views/conferences.dart';
 
 class MonkeyConf extends StatefulWidget {
   final String appName = 'MonkeyConf';

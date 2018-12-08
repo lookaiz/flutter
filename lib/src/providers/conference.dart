@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:monkey_tech_day/src/bloc/conferences/conference.dart';
+import 'package:flutter_mktd/src/bloc/conferences/conference.dart';
 
 class ConferenceProvider extends InheritedWidget {
   static ConferenceProvider of(BuildContext context) =>

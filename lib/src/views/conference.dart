@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:monkey_tech_day/src/bloc/conferences/conference.dart';
-import 'package:monkey_tech_day/src/models/conference.dart';
-import 'package:monkey_tech_day/src/providers/conference.dart';
-import 'package:monkey_tech_day/src/providers/root.dart';
-import 'package:monkey_tech_day/src/utils/platform_app_bar.dart';
+
+import 'package:flutter_mktd/src/bloc/conferences/conference.dart';
+import 'package:flutter_mktd/src/models/conference.dart';
+import 'package:flutter_mktd/src/providers/conference.dart';
+import 'package:flutter_mktd/src/providers/root.dart';
+import 'package:flutter_mktd/src/utils/platform_app_bar.dart';
 
 class ConferenceView extends StatefulWidget {
   static const routeName = '/conference';

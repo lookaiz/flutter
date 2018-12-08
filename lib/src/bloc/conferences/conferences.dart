@@ -1,8 +1,8 @@
 import 'dart:convert';
-
-import 'package:monkey_tech_day/src/models/conference.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:http/http.dart' as http;
+
+import 'package:flutter_mktd/src/models/conference.dart';
 
 class ConferencesBloc {
   ConferencesBloc() {

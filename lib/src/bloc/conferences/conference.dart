@@ -1,5 +1,5 @@
-import 'package:monkey_tech_day/src/models/conference.dart';
 import 'package:rxdart/rxdart.dart';
+import 'package:flutter_mktd/src/models/conference.dart';
 
 class ConferenceBloc {
   ConferenceBloc(Conference conference) {

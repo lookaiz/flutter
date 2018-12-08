@@ -1,4 +1,4 @@
-package com.example.monkeytechday;
+package com.example.flutter_mktd;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

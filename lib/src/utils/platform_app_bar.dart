@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:monkey_tech_day/src/utils/platform_specific.dart';
+import 'package:flutter_mktd/src/utils/platform_specific.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   CustomAppBar({@required this.title, this.previousPageTitle});
